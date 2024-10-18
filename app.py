@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your trained model
-model = joblib.load('C:\\Users\\diyas\\Downloads\\diet_model3.pkl')
+model = joblib.load('./diet_model3.pkl')
 
 # Define the expected feature names for the model
 FEATURE_NAMES = [
